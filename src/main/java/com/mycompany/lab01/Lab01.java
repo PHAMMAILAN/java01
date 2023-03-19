@@ -13,9 +13,9 @@ import java.util.Scanner;
 public class Lab01 {
 
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
-//        char c = '\uD83d';
-//        System.out.println("c = " + c);
+        System.out.println("Hello World!");
+        char c = '\uD83d';
+        System.out.println("c = " + c);
 
     }
     
