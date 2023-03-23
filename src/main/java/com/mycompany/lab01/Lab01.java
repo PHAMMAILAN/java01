@@ -84,18 +84,46 @@ public class Lab01 {
 //        a2[0] = 10;
 //        System.out.println(a1[0]);
 
-// boxing and unboxing
-        Integer a = Integer.valueOf("123");
-        Integer b = Integer.valueOf(5);
-        Integer c = Integer.valueOf("12345", 10);
-        int i = Character.MIN_RADIX;
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
+// boxing 
+//        Integer a = Integer.valueOf("123");
+//        Integer b = Integer.valueOf(5);
+//        Integer c = Integer.valueOf("12345", 10);
+//        int i = Character.MIN_RADIX;
+//        System.out.println("a = " + a);
+//        System.out.println("b = " + b);
+//        System.out.println("c = " + c);
+
+//unboxing       
+//        int x = a.intValue();           
+//        System.out.println("x = " + x);
+//        int y = c;
+//        System.out.println("y = " + y);
+
+//operator
+//        byte b1 = 5;
+//        byte b2 = 15;
+        //byte b3 = b1 + b2;          // error
+//        int b1 = 25;
+//        int b2 = 15;
+//        int b3 = b1 + b2;
+//        double x = b1 / b2;
+//        System.out.println("x = " + x);
+
+//operator ++, --
+        int a = 10;
+        int b;
+        //b = a++ + a++;
+        //ystem.out.println("b = " + b);
+//        System.out.println("a = " + a);
         
-        int x = a.intValue();
-        System.out.println("x = " + x);
-        int y = c;
-        System.out.println("y = " + y);
+        if(a++ > 10) {
+            System.out.println("If statement");
+        }
+        System.out.println("a = " + a);
+        
+        
+        
+        
+
     }
 }
