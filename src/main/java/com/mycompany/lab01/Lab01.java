@@ -92,5 +92,10 @@ public class Lab01 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
+        
+        int x = a.intValue();
+        System.out.println("x = " + x);
+        int y = c;
+        System.out.println("y = " + y);
     }
 }
